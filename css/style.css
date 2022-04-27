@@ -1,0 +1,136 @@
+body {
+    background-image: url(honeycomb.png);
+    font-family: Arial;
+    margin: 0px auto;
+    max-width: 1600px;
+    border: solid;
+    border-color: black;
+
+}
+
+header {
+    background-color: goldenrod;
+    display:block;
+    color: black;
+    text-align:center;
+}
+
+header h2{
+    margin: 0px;
+}
+h1 {
+    font-size: 72px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0px;
+    text-align:center;
+    color: black;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0px;
+    text-align:center;
+    color: black;
+}
+
+h4{
+    color:black;
+    background-color: #fff;
+    position: absolute;
+    padding: 0px 150px;
+    top: 50px;
+    left: -120px;
+    text-align: center;
+}
+
+nav{
+    font-size: 50px;
+    display:block;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+nav a:link, nav a:visited {
+    display:block;
+    padding: 10px;
+    text-decoration:none;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+}
+
+    nav a:hover {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        color: white;
+        background-color: orange;
+        text-decoration: underline;
+    }
+
+    nav h3 {
+        font-size: 30px;
+        margin: 15px;
+        color:purple;
+    }
+
+section {
+    display: grid;
+    width: 100%;
+    float: center;
+}
+
+article {
+    background-color: lightyellow;
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+    article header {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding: 5px;
+
+    }
+    article footer {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    article h1 {
+        font-size: 28px;
+    }
+footer {
+    clear: both;
+    display: grid;
+    background-color: goldenrod;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+    iframe {
+        margin: auto;
+        width: 80%;
+        padding: 30px;
+    }
+    img {
+        
+        margin: auto;
+        width: 60%;
+        padding: 40px;
+    }
+    p {
+        font-size: 22px;
+        text-align: center;
+    }
